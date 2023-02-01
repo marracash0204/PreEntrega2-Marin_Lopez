@@ -1,0 +1,159 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Roboto+Slab:wght@300;500&display=swap');
+
+
+
+
+:root {
+  /* Colors */
+  --primary: #000000;
+  --secondary: #FF5376;
+  --alternative: rgb(255, 255, 255);
+  --text-color: #2B2B2B;
+
+  /* Spacings */
+  --spacing-large: 6rem;
+  --spacing-medium: 2.4rem;
+  --spacing-small: 2rem;
+  --spacing-xsmall: 1rem;
+
+  /* Font-family */
+  --font-principal: 'Barlow', sans-serif;
+  --font-title: 'Roboto Slab', serif;
+
+  /* Font-Sizes */
+  --text-large: 5.2em;
+  --text-medium: 2.2em;
+  --text-base: 1.6em;
+  --text-small: 1.4em;}
+
+  /* Normalize */
+
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ html 
+ {font-size: 62.5%;}
+
+ img 
+ {width: 100%;}
+
+ body 
+    {background-image: linear-gradient(white, purple, fuchsia, rgb(0, 140, 255));
+     background-repeat: no-repeat; 
+     font-family: var(--font-principal);}
+
+
+     li 
+     {list-style-type: none;
+      color: var(--alternative)}
+
+
+    ul a:link 
+        {text-decoration: none;
+         font-family: var(--font-title);
+         color: var(--alternative);
+         padding: 2px var(--spacing-small)}
+
+    li a:hover 
+     {color: var(--secondary)}  
+     
+    a:visited
+    {display: none;
+    color: var(--alternative);
+    gap: var(--spacing-small);}
+
+     ul 
+     {font-size: var(--text-base);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      background-color: var(--primary);
+      padding: 5px 0;
+      margin-bottom: 80px;}
+
+      
+
+      /*inicio html de index*/
+
+
+  header
+  {display: grid;
+   grid-template-columns: repeat(21, 0.5fr);
+   grid-template-rows: repeat(10, 0.5fr)}
+
+ .logo_circulo
+ {grid-area: 2 / 9 / span 7 / span 5;}
+
+ .section_cosmeticos
+{display: flex;
+ flex-direction: row;
+ gap: var(--spacing-small);}  
+
+
+ .titulo_index
+ {display: flex;
+  flex-direction: column;
+  font-size: var(--text-medium);
+  justify-content: center;
+  align-items: center;}
+
+  .titulo1
+  {font-family: var(--font-title);}
+
+  .parrafo_principal
+  {font-family: var(--font-principal);
+   color: var(--primary);}
+
+   main
+   {max-width: 1200px;
+    margin: 0 auto;}
+
+   footer p
+   {max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: var(--text-medium);
+    padding-bottom: 80px;} 
+
+   .titulo2
+   {font-family: var(--font-title);
+    background-color: black;
+    text-align: center;
+    color: white;} 
+
+   .pagos
+   {display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 1fr;
+    
+    } 
+
+  
+
+
+  fieldset
+ {display: grid;
+  justify-items: center;
+  width: 100%;
+  height: auto;
+  border: solid;
+  background-color: fuchsia;}
+
+ .titulo_contacto
+ {text-align: center;
+  color: white;
+  background-color: crimson;}
+    
+
+
+  
