@@ -1,2 +1,6 @@
+
 body
 {background-image: linear-gradient(white, violet, rgba(146, 9, 158, 0.349), white);}
+
+.bg_violet
+{background-color: violet;}
