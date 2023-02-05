@@ -5,81 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orion Cosmetics</title>
-    <link rel="icon" href="./favicon.ico">
+    <link rel="icon" href="../media/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="../main.css">
 </head>
 <body>
 
 <header class="container-fluid">
     <section class="row ms-0">
         <article class="col-md-4 col-sm-5">
-            <a href="https://instagram.com/orion_cosmetics_?igshid=OGQ2MjdiOTE="><img class="img-fluid" src="/media/pngegg.png" alt="logo instagram"></a>
-            <a href="https://walink.co/ea61bc"><img class="img-fluid" src="media/whatsapp.png" alt="Whatsapp"></a>
+            <a href="https://instagram.com/orion_cosmetics_?igshid=OGQ2MjdiOTE="><img class="img-fluid" src="../media/pngegg.png" alt="logo instagram"></a>
+            <a href="https://walink.co/ea61bc"><img class="img-fluid" src="../media/whatsapp.png" alt="Whatsapp"></a>
         </article>
         <article class="d-flex flex-nowrap">
-                <img class="rounded mx-auto d-block img-fluid" src="/media/Logo_Orion_Cosmetics_en_circulo.png" class="logo_circulo" alt="Orion cosmetics">
+                <img class="rounded mx-auto d-block img-fluid" src="../media/Logo_Orion_Cosmetics_en_circulo.png" class="logo_circulo" alt="Orion cosmetics">
         </article>    
     </section>
         <br><br>
 </header>
          <nav class= "nav nav-pills row row-cols-3 justify-content-center text-center">
                   
-                    <a class="nav1 link-dark fw-bolder border border-danger flex-sm-fill text-sm-center nav-link" aria-current="page" href="/index.html">Inicio</a>    
-                    <a class="nav2 link-dark fw-bolder border border-danger flex-sm-fill text-sm-center nav-link" href="/paginas/productos.html">Productos</a>
-                    <a class="nav3 link-dark fw-bolder border border-danger flex-sm-fill text-sm-center nav-link" href="/paginas/Contacto.html">Contáctanos</a>        
+                    <a class="nav1 link-dark fw-bolder border border-danger flex-sm-fill text-sm-center nav-link" aria-current="page" href="../index.html">Inicio</a>    
+                    <a class="nav2 link-dark fw-bolder border border-danger flex-sm-fill text-sm-center nav-link" href="../paginas/productos.html">Productos</a>
+                    <a class="nav3 link-dark fw-bolder border border-danger flex-sm-fill text-sm-center nav-link" href="../paginas/Contacto.html">Contáctanos</a>        
          </nav>   
          <br>
 
          <main>   
+             <!--aqui comienzan la seleccion de imagenes-->
 
+             <h2 class="fw-bolder text-center">Sombras</h2>
 
-                 <!--aqui comienzan la seleccion de imagenes-->
-
-                 <h2 class="titulo_principal">Elige los productos que desees</h2>
-
-                <form action="#" method="get" enctype="application/x-www-form-urlencoded">  
-                   
-                    
-                    <article class="checkbox1">
-                        <img  src="./Imagenes_de_sombras/sombra_meet_beauty.jpg" alt="Sombra meet beauty"><br>
-                        <input type="checkbox" id="meet_beauty" name="meet_beauty">
-                        <label for="meet_beauty">Sombra Meet Beauty</label>
-                    </article>
-
-                    <article class="checkbox2">
-                        <img  src="./Imagenes_de_sombras/Sombra_fantastic_word.jpg" alt="Sombra fantastic word"><br>
-                        <input type="checkbox" id="fantastic_word" name="fantastic_word">
-                        <label for="fantastic_word">Sombra Fantastic Word</label>
-                    </article>
-
-                    <article class="checkbox3">
-                        <img src="./Imagenes_de_sombras/Sombra_canlen.jpg" alt="sombra canlen"><br>
-                        <input type="checkbox" id="canlen" name="canlen">
-                        <label for="canlen">Sombra Canlen</label>
-                    </article>  <br><br>
-
-                    <article class="checkbox4">
-                        <img  src="./Imagenes_de_sombras/Sombra_beauty.jpg" alt="sombra Hudabeauty"><br>
-                        <input type="checkbox" id="hudabeauty" name="Hudabeauty">
-                        <label for="hudabeauty">Sombra Hudabeauty</label>
-                    </article><br><br>
-
-                    <article class="checkbox5">
-                        <img  src="./Imagenes_de_sombras/sombra_fabbla.jpg" alt="sombra Fabbla"><br>
-                        <input type="checkbox" id="fabbla" name="Fabbla">
-                        <label for="fabbla">Sombra Fabbla</label>
-                    </article><br><br>
-
-                    <article class="checkbox6">
-                        <img  src="./Imagenes_de_sombras/sombra_majestic_galaxy.jpg" alt="sombra majestic galaxy"><br>
-                        <input type="checkbox" id="majestic_galaxy" name="majestic_galaxy">
-                        <label for="majestic_galaxy">Sombra Majestic Galaxy</label>
-                    </article><br><br>
-
-                    <input class="enviar" type="submit" value="Enviar">
+             <form class="row" action="#" method="get" enctype="application/x-www-form-urlencoded">  
                 
-                </form>
+                 
+                 <article class="col-4">
+                     <img class="img-fluid img-thumbnail" src="../Imagenes_de_sombras/sombra_meet_beauty.jpg" alt="Sombra meet beauty"><br>
+                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="meet_beauty">
+                     <label class="form-check-label" for="inlineCheckbox1">Sombra Meet Beauty</label>
+                 </article>
+
+                 <article class="col-4">
+                     <img class="img-fluid"  src="../Imagenes_de_sombras/Sombra_fantastic_word.jpg" alt="Sombra fantastic word"><br>
+                     <input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="fantastic_word">
+                     <label class="form-check-label" for="inlineCheckbox2">Sombra Fantastic Word</label>
+                 </article>
+
+                 <article class="col-4">
+                     <img class="img-fluid" src="../Imagenes_de_sombras/Sombra_canlen.jpg" alt="sombra canlen"><br>
+                     <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="canlen">
+                     <label class="form-check-label" for="inlineCheckbox3">Sombra Canlen</label>
+                 </article>  <br><br>
+
+                 <article class="col-4">
+                     <img class="img-fluid" src="../Imagenes_de_sombras/Sombra_beauty.jpg" alt="sombra Hudabeauty"><br>
+                     <input class="form-check-input" type="checkbox" id="inlineCheckbox4" name="Hudabeauty">
+                     <label class="form-check-label" for="inlineCheckbox4">Sombra Hudabeauty</label>
+                 </article><br><br>
+
+                 <article class="col-4">
+                     <img class="img-fluid" src="../Imagenes_de_sombras/sombra_fabbla.jpg" alt="sombra Fabbla"><br>
+                     <input class="form-check-input" type="checkbox" id="inlineCheckbox5" name="Fabbla">
+                     <label class="form-check-label" for="inlineCheckbox5">Sombra Fabbla</label>
+                 </article><br><br>
+
+                 <article class="col-4">
+                     <img class="img-fluid" src="../Imagenes_de_sombras/sombra_majestic_galaxy.jpg" alt="sombra majestic galaxy"><br>
+                     <input class="form-check-input" type="checkbox" id="inlineCheckbox6" name="majestic_galaxy">
+                     <label class="form-check-label" for="inlineCheckbox6">Sombra Majestic Galaxy</label>
+                 </article><br><br>
+
+                 <input class="enviar" type="submit" value="Enviar">
+             
+             </form>
+             </main>
+
+
+                
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 
